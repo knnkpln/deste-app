@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deste — Batak, Pişti, Onbirli, King</title>
+    <meta name="description" content="The most popular Turkish card games — Batak, Pişti, Onbirli, and King — all in one offline app.">
+    <link rel="canonical" href="https://knnkpln.github.io/deste-app/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #fafafa;
+            --text: #1a1a1a;
+            --muted: #666;
+            --accent: #1e6b4f;
+            --border: #e5e5e5;
+            --max-width: 720px;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 48px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 1.1rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 40px 0 16px;
+            letter-spacing: -0.01em;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #333;
+        }
+        ul {
+            margin: 16px 0 24px 20px;
+            color: #333;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .store-links {
+            display: flex;
+            gap: 16px;
+            margin: 32px 0;
+            flex-wrap: wrap;
+        }
+        .store-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--text);
+            color: var(--bg);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .store-link:hover { opacity: 0.85; }
+        .footer-links {
+            border-top: 1px solid var(--border);
+            margin-top: 64px;
+            padding-top: 24px;
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        .footer-links a {
+            color: var(--muted);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+        .footer-links a:hover {
+            color: var(--text);
+            border-bottom-color: var(--text);
+        }
+        .footer-copyright {
+            margin-top: 16px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .container { padding: 32px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deste</h1>
+            <p class="subtitle">Batak · Pişti · Onbirli · King — offline & ad-supported</p>
+        </header>
+
+        <main>
+            <p>
+                Deste brings the most popular Turkish card games together in a single,
+                offline-first mobile app. Play against intelligent AI opponents anytime,
+                anywhere — no internet required.
+            </p>
+
+            <h2>Games included</h2>
+            <ul>
+                <li><strong>Batak</strong> — bidding, paired, buried, and spade-trump variants</li>
+                <li><strong>Pişti</strong> — the classic fast-paced card game</li>
+                <li><strong>Onbirli</strong> — strategic favorite for tactic lovers</li>
+                <li><strong>King</strong> — the elegant trick-avoidance game</li>
+            </ul>
+
+            <h2>Key features</h2>
+            <ul>
+                <li>Fully offline — no internet connection required</li>
+                <li>Intelligent AI bots that play like real opponents</li>
+                <li>Smooth animations and realistic card physics</li>
+                <li>Clean, focused interface</li>
+            </ul>
+
+            <h2>Download</h2>
+            <div class="store-links">
+                <a href="https://play.google.com/store/apps/details?id=com.kenankaplan.deste"
+                   class="store-link" target="_blank" rel="noopener">Google Play</a>
+                <a href="https://apps.apple.com/app/deste/id6759857497"
+                   class="store-link" target="_blank" rel="noopener">App Store</a>
+            </div>
+
+            <h2>Contact</h2>
+            <p>
+                Questions, feedback, or support requests: <a href="mailto:knn.kapln@gmail.com">knn.kapln@gmail.com</a>
+            </p>
+        </main>
+
+        <footer class="footer-links">
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./terms.html">Terms &amp; Conditions</a>
+            <a href="mailto:knn.kapln@gmail.com">Contact</a>
+        </footer>
+        <p class="footer-copyright">© 2026 Kenan Kaplan</p>
+    </div>
+</body>
+</html>
